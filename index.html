@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="autdor" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="all"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>AJAX: Movie Finder 081</h1>
+    <div class="table col-xs-12">
+      <div class="topnav col-xs-6">
+        <input type="text" id="fname" name="fname" placeholder="Search..">
+        <button onclick="searchMovie()">Search</button>
+      </div>
+      <div class="col-xs-6">
+        <img id="poster"/>
+        <p>Year: <span id="year"></span></p>
+        <p>Title: <a href="" id="movielink"><span id="title"></a></span></p>
+        <p>Actors: <span id="actors"></span></p>
+        <p>Plot: <span id="plot"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
